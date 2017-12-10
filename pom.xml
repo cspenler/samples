@@ -13,8 +13,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <jdk.version>1.8</jdk.version>
         <compiler.fork>false</compiler.fork>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <camel.version>2.20.1</camel.version>
     </properties>
     <modules>
         <module>services</module>
+        <module>interfaces</module>
+        <module>model</module>
     </modules>
 </project>
