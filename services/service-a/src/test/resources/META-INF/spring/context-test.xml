@@ -11,6 +11,7 @@
     <bean id="serviceARoute" class="de.cspenler.serviceA.ServiceARouteBuilder" />
 
     <camel:camelContext id="camel" trace="true">
+        <camel:propertyPlaceholder id="properties" location="/META-INF/service-a.properties"/>
         <camel:routeBuilder ref="serviceARoute"/>
     </camel:camelContext>
 </beans>

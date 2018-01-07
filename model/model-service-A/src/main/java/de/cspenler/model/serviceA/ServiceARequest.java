@@ -9,6 +9,14 @@ public class ServiceARequest implements Serializable {
     private String id;
     private String requestValue;
 
+    public ServiceARequest() {
+    }
+
+    public ServiceARequest(String id, String requestValue) {
+        this.id = id;
+        this.requestValue = requestValue;
+    }
+
     public String getId() {
         return id;
     }
