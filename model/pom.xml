@@ -12,7 +12,8 @@
     <artifactId>model</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>model-service-a</module>
+        <module>model-service-A</module>
+        <module>model-service-B</module>
     </modules>
 
 
