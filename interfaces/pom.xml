@@ -12,7 +12,8 @@
     <artifactId>interfaces</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>interface-a</module>
+        <module>interface-A</module>
+        <module>interface-B</module>
     </modules>
 
 
