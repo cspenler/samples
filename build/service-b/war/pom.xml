@@ -3,25 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>service-a</artifactId>
-        <groupId>de.cspenler.build-a</groupId>
+        <artifactId>service-b</artifactId>
+        <groupId>de.cspenler.build-b</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>samples :: build :: service-a :: war</name>
+    <name>samples :: build :: service-b :: war</name>
     <artifactId>war</artifactId>
     <packaging>war</packaging>
 
     <dependencies>
         <dependency>
             <groupId>de.cspenler</groupId>
-            <artifactId>service-a</artifactId>
+            <artifactId>service-b</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>de.cspenler</groupId>
-            <artifactId>interface-a</artifactId>
+            <artifactId>interface-b</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -57,7 +57,7 @@
     </dependencies>
 
     <build>
-        <finalName>service-a</finalName>
+        <finalName>service-b</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
